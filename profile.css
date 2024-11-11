@@ -1,0 +1,1501 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* nav-bar start here */
+
+
+/* First-part start here */
+
+.first-part {
+    color: #fff;
+    display: flex;
+    margin-left: 80px;
+}
+
+
+
+/* chat gbt helps */
+
+body {
+    font-family: Arial, sans-serif;
+    height: 220vh;
+    width: 100%;
+
+
+}
+
+header {
+    width: 100%;
+    background-color: #0d0d14;
+    /* Dark background for the nav */
+    height: 7vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+
+.first-part,
+.second-part {
+    display: flex;
+    align-items: center;
+}
+
+.first-part .freelance img {
+    height: 32px;
+}
+
+.freelance {
+    padding: 7px 10px;
+    height: 7vh;
+}
+
+.three-btn,
+.another-three {
+    display: flex;
+
+}
+
+.three-btn {
+    margin-left: 25px;
+}
+
+.three-btn button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    padding: 7px 10px;
+
+}
+
+.another-three button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    padding: 2px 4px;
+    gap: 5px;
+}
+
+.another-three {
+    margin-right: -20px;
+}
+
+.another-three button {
+    margin: 4px;
+}
+
+
+.three-btn p,
+.manage p,
+.group p {
+    font-size: 1rem;
+    margin: 0;
+    color: white;
+    margin-left: 1px;
+}
+
+.second-part .post button {
+    background-color: #E60278;
+    color: white;
+    /* padding: 10px 20px; */
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 2rem;
+    width: 120px;
+    height: 32px;
+    white-space: nowrap;
+}
+
+.second-part .post button:hover {
+    background-color: #d3036e;
+}
+
+
+
+.pro-btn button {
+    background-color: #b64bd1;
+    color: white;
+    border: 1px solid white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.second-part {
+    margin-right: 120px;
+}
+
+
+.universam p {
+    margin: -7px 0 -5px 0;
+    font-size: 0.9rem;
+}
+
+.material-symbols-outlined {
+    font-size: .5rem;
+    color: white;
+}
+
+.first-part .browse-drop,
+.manage-drop,
+.notify-drop,
+.folder-drop,
+.message-drop {
+    display: none;
+}
+
+/* dropdown */
+
+/* Existing styles remain unchanged */
+
+/* browse drop down start here */
+.browse-drop {
+    display: none;
+    /* Hidden by default */
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    ;
+    width: 900px;
+    height: 130vh;
+    z-index: 10;
+    /* Ensure it's above other content */
+    top: 50px;
+    /* Adjust as per the button height */
+}
+
+.browse-drop::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    /* Position the triangle above the dropdown */
+    left: 50px;
+    /* Adjust to align the triangle under the button */
+    border-width: 0 10px 10px 10px;
+    /* Top border is 0, bottom is 10px to create a triangle */
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+    /* Only the bottom border is visible (white) */
+    display: block;
+
+}
+
+.input-search {
+    width: 98%;
+    height: 5%;
+    border: 1px solid #3f3f41;
+    background-color: rgba(255, 140, 0, 0);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+
+
+.input-search:focus-within {
+    border: 1px solid #283eff;
+}
+
+.input-search span {
+    color: #0d0d14;
+}
+
+.input-search input {
+    width: 100%;
+    height: 95%;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+}
+
+.input-search input::placeholder {
+    font-size: 0.9rem;
+}
+
+.search-flex {
+    width: 100%;
+    height: 19%;
+    background-color: #ff00f200;
+    display: flex;
+}
+
+.browse-drop h6 {
+    color: black;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+.in-flex {
+    width: 23%;
+    height: 100%;
+    background-color: #d3560300;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.in-flex svg {
+    width: 50px;
+    height: 50px;
+}
+
+.a-p p {
+    color: #0d0d14;
+}
+
+.a-p a {
+    text-decoration: none;
+    color: #1e1c2b;
+    margin: 0px 10px;
+    white-space: nowrap;
+}
+
+.a-p {
+    margin-top: 10px;
+}
+
+.a-p a:hover {
+    color: #283eff;
+
+}
+
+
+
+
+/* Browse drop dow ends here */
+
+/* Manage drop down Start here */
+.manage-drop {
+    display: none;
+    /* Hidden by default */
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 400px;
+    height: 70vh;
+    z-index: 10;
+    /* Ensure it's above other content */
+    top: 60px;
+    left: 20px;
+    color: black;
+
+}
+
+.manage-drop::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    /* Position the triangle above the dropdown */
+    left: 150px;
+    /* Adjust to align the triangle under the button */
+    border-width: 0 10px 10px 10px;
+    /* Top border is 0, bottom is 10px to create a triangle */
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+    /* Only the bottom border is visible (white) */
+    display: block;
+
+}
+
+.manage-drop p {
+    color: #0d0d14;
+}
+
+.recent {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+
+}
+
+.recent p,
+.p-cre {
+    color: rgb(38, 49, 209);
+}
+
+.recent p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.center-p {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.center-p p {
+    font-size: .9rem;
+}
+
+.center-p a {
+    text-decoration: none;
+}
+
+.center-p a:hover {
+    text-decoration: underline;
+}
+
+.fav-icon {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding: 0 5px;
+}
+
+x .fav-icon svg {
+    margin-left: 5px;
+}
+
+
+.fav-icon:hover {
+    border-left: 3px solid rgb(131, 131, 131);
+    cursor: pointer;
+}
+
+
+/* Manage dropdown ends here */
+
+/* Notify drop down Start Here  */
+
+.notify-drop {
+    display: none;
+    /* Hidden by default */
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 350px;
+    height: 70vh;
+    z-index: 10;
+    /* Ensure it's above other content */
+    top: 60px;
+    left: -145px;
+    color: black;
+
+}
+
+.notify-drop::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    /* Position the triangle above the dropdown */
+    left: 160px;
+    /* Adjust to align the triangle under the button */
+    border-width: 0 10px 10px 10px;
+    /* Top border is 0, bottom is 10px to create a triangle */
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+    /* Only the bottom border is visible (white) */
+    display: block;
+
+}
+
+.bell-text {
+    text-align: center;
+    white-space: nowrap;
+    margin: 50px 0;
+}
+
+.bell-text img {
+    margin: 20px;
+    font-size: 100px;
+
+}
+
+.bell-text p {
+    font-size: .8rem;
+    line-height: 7px;
+}
+
+.bell-text button {
+    background-color: #283eff00;
+    color: #0d0d14;
+    margin: auto;
+    border: 1px solid rgb(87, 85, 85);
+    margin-top: 20px;
+    height: 30px;
+    padding: 5px 15px;
+}
+
+.bell-text button:hover {
+    background-color: #47474752;
+    cursor: pointer;
+}
+
+
+
+
+/* Notify dropdown ends here */
+
+/* message-drop start here */
+.message-drop {
+    display: none;
+    /* Hidden by default */
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 350px;
+    height: 70vh;
+    z-index: 10;
+    /* Ensure it's above other content */
+    top: 70px;
+    left: -50px;
+    color: black;
+
+}
+
+.message-drop::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    /* Position the triangle above the dropdown */
+    left: 160px;
+    /* Adjust to align the triangle under the button */
+    border-width: 0 10px 10px 10px;
+    /* Top border is 0, bottom is 10px to create a triangle */
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+    /* Only the bottom border is visible (white) */
+    display: block;
+}
+
+.bell-text a {
+    text-decoration: none;
+}
+
+.bell-text a:hover {
+    text-decoration: underline;
+}
+
+/* Message  dropdown ends here */
+
+
+.folder-drop {
+    display: none;
+    /* Hidden by default */
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 350px;
+    height: 80vh;
+    z-index: 10;
+    left: -110px;
+    /* Ensure it's above other content */
+    top: 40px;
+    /* Adjust as per the button height */
+}
+
+
+.folder-drop::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    /* Position the triangle above the dropdown */
+    left: 160px;
+    /* Adjust to align the triangle under the button */
+    border-width: 0 10px 10px 10px;
+    /* Top border is 0, bottom is 10px to create a triangle */
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+    /* Only the bottom border is visible (white) */
+    display: block;
+}
+
+.bell-text a {
+    text-decoration: none;
+}
+
+.bell-text a:hover {
+    text-decoration: underline;
+}
+
+
+/* Dropdown visibility on hover */
+.Browse:hover .browse-drop,
+.manage:hover .manage-drop,
+.notify:hover .notify-drop,
+.folder:hover .folder-drop,
+.message:hover .message-drop {
+    display: block;
+    /* Show dropdown on hover */
+
+}
+
+.freelance:hover,
+.Browse:hover,
+.manage:hover,
+.notify:hover,
+.folder:hover,
+.message:hover,
+.group:hover,
+.profile:hover {
+    background-color: #2b2b2bd5;
+
+
+}
+
+.freelance button,
+.Browse,
+.manage,
+.notify,
+.folder,
+.message {
+    height: 100%;
+}
+
+/* Additional tweaks for the positioning */
+.three-btn,
+.another-three {
+    position: relative;
+    /* Make parent relative for dropdown positioning */
+}
+
+/* Specific dropdown adjustments for certain buttons */
+
+
+
+
+.universam {
+    margin-left: 10px;
+    position: relative;
+
+
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-left: 1.3rem;
+    color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.universam:hover .universam-drop {
+    display: block;
+    cursor: pointer;
+
+}
+
+
+.universam-drop {
+    width: 380px;
+    height: 520px;
+    position: absolute;
+    display: none;
+    background-color: #ffffff;
+    top: 40px;
+    right: -130px;
+    color: #0d0d14;
+    font-size: 1rem;
+    box-shadow: 1px 1px 10px rgba(78, 77, 77, 0.473);
+}
+
+.overflow {
+    width: 380px;
+    height: 520px;
+    background-color: #ffffff;
+    top: 70px;
+    right: -130px;
+    color: #0d0d14;
+    overflow-y: scroll;
+    padding: 0 20px;
+}
+
+.universam-drop a {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #3d3b3b;
+    width: 100%;
+}
+
+.universam-drop a:hover {
+    text-decoration: underline;
+    color: #283eff;
+    cursor: pointer;
+}
+
+.theme {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    color: #3d3b3b;
+}
+
+.theme span {
+    color: #1e1c2b;
+    margin-top: 20px;
+}
+
+/* .theme span:hover{
+    text-decoration: none;
+    color: #283eff;
+} */
+
+.theme:hover {
+    color: #283eff;
+    cursor: pointer;
+}
+
+.balance-p {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.balance-p p {
+    font-size: 1rem;
+    color: #3d3b3b;
+}
+
+.universam-drop .about-profile,
+.universam-drop .finance {
+    margin: 30px 0 0 10px;
+}
+
+.universam-drop .about-profile h6,
+.universam-drop .finance h6 {
+    font-weight: bold;
+}
+
+.universam-drop::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    /* Position the triangle above the dropdown */
+    left: 180px;
+    /* Adjust to align the triangle under the button */
+    border-width: 0 10px 10px 10px;
+    /* Top border is 0, bottom is 10px to create a triangle */
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+    /* Only the bottom border is visible (white) */
+    display: block;
+}
+
+.last-app {
+    margin: 20px 0 5px 30px;
+}
+
+
+/* copy and Paste */
+/* main {
+    width: 100%;
+    height: 100vh;
+} */
+
+/* .cont1 {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(18, 21, 27);
+    display: flex;
+} */
+
+img {
+    width: 140px;
+    margin: 10px 10px;
+}
+
+span {
+    color: white;
+    margin: 14px 25px;
+}
+
+.hold {
+    display: flex;
+}
+
+h4 {
+    color: white;
+    margin: 18px -10px;
+}
+
+.hold i {
+    margin: 17px 30px;
+    color: white;
+}
+
+.seco {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(35, 42, 53);
+}
+
+.mi {
+    display: flex;
+    padding: 5px 120px;
+    color: white;
+}
+
+.o {
+    padding: 0 50px;
+}
+
+.p {
+    padding: 0 1px;
+}
+
+.q {
+    padding: 0 40px;
+}
+
+.thir {
+    width: 100%;
+    height: 250px;
+    background-image: url(https://cdn2.f-cdn.com/static/img/profiles/cover-product.jpg?image-optimizer=force);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.te {
+    width: 220px;
+    height: 220px;
+    background-image: url(https://www.f-cdn.com/assets/main/en/assets/unknown.png?image-optimizer=force&format=webply&width=336);
+    background-size: cover;
+    border-radius: 10px;
+    margin: 100px 35px;
+    position: absolute;
+    border: 5px solid white;
+}
+
+.or {
+    width: 50px;
+    height: 35px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/019/552/595/non_2x/sign-up-icon-signup-square-box-on-transparent-background-free-png.png);
+    background-size: cover;
+    margin: 150px 140px;
+
+}
+
+.wir {
+    display: flex;
+    position: absolute;
+}
+
+.wir .she {
+    margin: 160px 740px;
+}
+
+.she {
+    width: 270px;
+    height: 60px;
+    background-color: rgb(252, 252, 253);
+    color: rgb(35, 42, 53);
+}
+
+.he {
+    width: 270px;
+    height: 60px;
+    background-color: rgb(252, 252, 253);
+    margin: 160px 750px 160px -700px;
+}
+
+.she h4 {
+    color: rgb(35, 42, 53);
+    font-size: 25px;
+    font-weight: 550;
+    padding: 0 20px;
+}
+
+.he h4 {
+    color: rgb(35, 42, 53);
+    font-size: 25px;
+    font-weight: 550;
+    padding: 0 20px;
+}
+
+.ez {
+    width: 200px;
+    height: 50px;
+    background-color: bisque;
+}
+
+.wir .ez {
+    margin: 270px -290px;
+}
+
+.if {
+    display: flex;
+    margin: 20px 300px;
+}
+
+.if h4 {
+    color: rgb(35, 42, 53);
+    font-size: 25px;
+}
+
+.if i {
+    margin: 25px 40px;
+}
+
+.oin {
+    margin: 20px -20px;
+}
+
+hr {
+    width: 85%;
+    margin: -40px 200px;
+}
+
+.nami {
+    margin: 70px 50px;
+    display: flex;
+}
+
+.nami h1 {
+    font-size: 50px;
+}
+
+.nami h4 {
+    color: rgb(35, 42, 53);
+    margin: 5px 20px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.ed {
+    width: 250px;
+    height: 60px;
+    background-color: white;
+    border: 1px rgb(119, 141, 177);
+    margin: -50px 50px;
+
+}
+
+.ed h4 {
+    font-size: 20px;
+    display: flex;
+}
+
+.mwe {
+    right: 0;
+    position: absolute;
+}
+
+.nami .ed {
+    padding-left: 100px;
+}
+
+.mwe i {
+    margin: 20px 0;
+}
+
+.starr {
+    display: flex;
+    margin: -40px 70px;
+}
+
+.starr i {
+    width: 40px;
+    height: 50px;
+}
+
+.oooy {
+    margin: 0 20px;
+}
+
+.ox {
+    width: 25px;
+}
+
+.ovo {
+    margin: -10px 3px;
+}
+
+.oy {
+    width: 20px;
+}
+
+.ovo2 {
+    margin: -8px 3px;
+}
+
+.vin {
+    width: 250px;
+    height: 80px;
+    background-color: white;
+    border: 2px solid antiquewhite;
+    right: 10px;
+    position: absolute;
+
+}
+
+.vin h4 {
+    color: rgb(35, 42, 53);
+    margin: 0 40px;
+}
+
+.vic2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.hh {
+    margin: 20px 60px;
+}
+
+.hhh {
+    margin: 20px 60px;
+}
+
+.hhh h4 {
+    color: rgb(35, 42, 53);
+    font-weight: 400;
+    display: flex;
+}
+
+.oww {
+    width: 1000px;
+    height: 170px;
+    background-color: transparent;
+    margin: 40px 50px;
+}
+
+.oww h4 {
+    color: rgb(35, 42, 53);
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+.ween {
+    padding: 0 45px;
+    display: flex;
+}
+
+.ween h1 {
+    font-size: 35px;
+}
+
+.wea {
+    display: flex;
+    padding: 10px 10px;
+    right: 10px;
+    position: absolute;
+}
+
+.wea a {
+    font-size: 17px;
+    color: rgb(35, 42, 53);
+}
+
+.mooo {
+    margin: 0 550px;
+
+}
+
+.mooo h4 {
+    color: rgb(35, 42, 53);
+    font-size: 14px;
+    margin: -10px 0;
+}
+
+.kili {
+    display: flex;
+    margin: 50px 50px;
+}
+
+.kili i {
+    margin: 5px 0;
+    height: 50px;
+}
+
+.nito {
+    display: flex;
+    margin: -10px 300px;
+}
+
+.lio {
+    display: flex;
+}
+
+.nito h4 {
+    color: rgb(35, 42, 53);
+    font-size: 25px;
+}
+
+.nito i {
+    margin: 20px 25px;
+}
+
+.nito .i8 {
+    margin: 18px 20px;
+}
+
+.ezi img {
+    width: 220px;
+    margin: 0 400px;
+}
+
+.ezi2 img {
+    width: 220px;
+    margin: 0 470px;
+}
+
+.ezi3 img {
+    width: 220px;
+    margin: 0 380px;
+}
+
+.weio {
+    margin: 200px 450px;
+}
+
+.weio h4 {
+    color: rgb(35, 42, 53);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.whe1 {
+    display: block;
+    margin: 0 60px;
+}
+
+.whe1 h4 {
+    color: rgb(35, 42, 53);
+    margin: 10 14px;
+    font-size: 20px;
+    font-weight: 200px;
+}
+
+.whe1 h1 {
+    font-size: 35px;
+}
+
+.whe2 {
+    display: flex;
+    right: 250px;
+    position: absolute;
+}
+
+.whe2 h4 {
+    color: rgb(35, 42, 53);
+    margin: -3.5px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.seleo {
+    display: flex;
+}
+
+.ooy {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(18, 21, 27);
+
+}
+
+.ooel {
+    display: flex;
+}
+
+.ii1 {
+    width: 250px;
+    height: 80vh;
+    background-color: transparent;
+    gap: 10px;
+}
+
+.ii2 {
+    width: 250px;
+    height: 80vh;
+    background-color: transparent;
+}
+
+.ii3 {
+    width: 200px;
+    height: 80vh;
+    background-color: transparent;
+}
+
+.ii4 {
+    width: 250px;
+    height: 80vh;
+    background-color: transparent;
+}
+
+.ii5 {
+    width: 250px;
+    height: 80vh;
+    background-color: transparent;
+}
+
+.ii6 {
+    width: 250px;
+    height: 80vh;
+    background-color: transparent;
+}
+
+.ii1 img {
+    margin: 25px 5px;
+}
+
+.oq {
+    display: flex;
+    margin: 0 20px;
+}
+
+.oq h4 {
+    margin: 0 20px;
+}
+
+.oq i {
+    color: white;
+}
+
+.oq2 {
+    display: flex;
+    margin: 20px 20px;
+}
+
+.oq2 h4 {
+    margin: 0 20px;
+}
+
+.oq2 i {
+    color: white;
+}
+
+.oq3 {
+    display: flex;
+    margin: 20px 20px;
+}
+
+.oq3 h4 {
+    margin: 0 20px;
+}
+
+.oq3 i {
+    color: white;
+}
+
+.ii2 h3 {
+    margin: 30px 10px;
+    color: white;
+}
+
+.oq4 h4 {
+    margin: 10px 5px;
+}
+
+.ii3 h3 {
+    color: white;
+    margin: 30px 10px;
+}
+
+.oq5 h4 {
+    margin: 12px 5px;
+}
+
+.ii4 h3 {
+    color: white;
+    margin: 30px 10px;
+}
+
+.oq6 h4 {
+    margin: 13px 5px;
+}
+
+.ii5 h3 {
+    color: white;
+    margin: 30px 10px;
+}
+
+.oq7 h4 {
+    margin: 13px 5px;
+}
+
+.ii6 h3 {
+    color: white;
+    margin: 30px 10px;
+}
+
+.ii6 img {
+    margin: 20px 15px;
+}
+
+.oq8 {
+    display: flex;
+}
+
+.oq8 i {
+    color: white;
+    margin: 5px 10px;
+}
+
+.ooy .oxi {
+    width: 100%;
+    color: gray;
+}
+
+.la {
+    display: flex;
+    margin: 15px 0;
+}
+
+.ka {
+    margin: 0 20px;
+}
+
+.ka h3 {
+    color: white;
+}
+
+.kb {
+    margin: 0 200px;
+}
+
+.kb h3 {
+    color: white;
+}
+
+.kc h5 {
+    color: white;
+}
+
+.also {
+    display: flex;
+    margin: 0 300px;
+}
+
+.oaz {
+    width: 130px;
+    height: 40px;
+    background-color: rgb(230, 2, 120);
+    border-radius: 5px;
+    color: white;
+    font-weight: 550;
+}
+
+.oaz {
+    margin: 7px 0;
+}
+
+.oaz h4 {
+    margin: 8px 10px;
+}
+
+.oa2 {
+    width: 40px;
+    height: 40px;
+    background-image: url(data:image/png;base64,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);
+    margin: 8px 10px;
+    border-radius: 5px;
+    background-size: cover;
+}
+
+.oaz3 {
+    margin: -10px 10px;
+    font-size: 15px;
+    position: fixed;
+    right: 40px;
+}
+
+.cx {
+    margin: -10px 0;
+}
+
+.zar {
+    display: none;
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    display: none;
+
+}
+
+.zar a {
+    color: black;
+    text-decoration: none;
+}
+
+.oaz2:hover .zar {
+    display: block;
+    position: fixed;
+    top: 0;
+}
+
+
+/* footer start here */
+footer{
+    background-color: #0d0d14;
+    width: 100%;
+    height: 106vh;
+    color: #fff;
+    padding: 50px 80px;
+    font-size: .9rem;
+}
+
+.big-flex{
+    display: flex;
+    height: 90%;
+}
+
+.logo-free img{
+    width: 150px;
+    height: 32px;
+}
+
+.us-div{
+    display: flex;
+}
+
+.us-div p{
+    margin-left: 10px;
+    white-space: nowrap;
+}
+.collective-us{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.us-div p:hover{
+    text-decoration: underline;
+    color: #1fade6;
+}
+
+.freelancer, .about, .terms, .partner,.app-play{
+    width: 18%;
+    height: 90vh;
+    background-color: #0004ff00;
+    display: block;
+    margin-left: 50px;
+    margin-top: 8px;
+}
+
+.freelancer h6, .about h6, .terms h6, .partner h6,.app-play h6{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.freelancer a, .about a, .terms a, .partner a{
+    display: block;
+    color: #fff;
+    margin-top: 3px;
+    font-size: .9rem;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.freelancer a:hover, .about a:hover, .terms a:hover, .partner a:hover{
+    color: #1fade6;
+    text-decoration: underline;
+}
+
+
+.apple-img img{
+    margin-top: 20px;
+}
+
+.apple-img{
+    margin-top: -15px;
+}
+
+.face-icon{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3rem;
+
+}
+
+.face-icon i{
+    margin-left: -15px;
+}
+
+#book:hover{
+    cursor: pointer;
+    color: #0004ff;
+
+}
+#twit:hover{    
+    cursor: pointer;
+    color: #00ccff;
+
+}
+#yout:hover{
+    cursor: pointer;
+    color: #ac0000;
+
+}
+#inst:hover{
+    cursor: pointer;
+    color: #e200aa;
+
+}
+
+.in-footer{
+    width:100% ;
+    background-color: #ffae0000;
+    display: flex;
+    color: #fff;
+    font-size: 1rem;
+padding: 30px ;
+border-top: 1px solid rgb(32, 32, 32) ;
+   
+}
+
+.numbers{
+    width:32% ;
+    background-color: #00ffaa00;
+    align-self: center;
+}
+
+.address{
+    white-space: nowrap;
+    font-size: .8rem;
+    background-color: rgba(165, 42, 42, 0);
+    align-self: center;
+}
+
+.numbers p, .address p{
+line-height: 2px;
+}
+

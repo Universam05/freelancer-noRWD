@@ -1,0 +1,1127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* nav-bar start here */
+
+/* nav{
+    width: 100%;
+    height: 8vh;
+    background-color: black;
+    color: #fff;
+    display:flex;
+    justify-content: space-between;
+
+} */
+
+/* First-part start here */
+
+.first-part{
+    color: #fff;
+    display: flex;
+    margin-left: 80px;
+}
+
+
+
+/* chat gbt helps */
+
+body {
+    font-family: Arial, sans-serif;
+    height: 220vh;
+    width: 100%;
+
+
+}
+
+header {
+    width: 100%;
+    background-color: #0d0d14; /* Dark background for the nav */
+    height: 7vh;
+    position: fixed;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;    
+}
+
+
+
+.first-part, .second-part {
+    display: flex;
+    align-items: center;
+}
+
+.first-part .freelance img {
+    height: 32px;
+}
+
+.freelance{
+    padding: 10px;
+    height: 8vh;
+}
+
+.three-btn, .another-three {
+    display: flex;
+    
+}
+
+.three-btn{
+    margin-left: 25px;
+}
+
+.three-btn button, .another-three button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    padding: 15px;
+
+}
+
+.another-three button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 6vh;
+    padding: 7px 8px;
+    gap: 5px;
+}
+
+.another-three{
+    margin-right: -20px;
+}
+
+.another-three button{
+    margin: 4px;
+}
+
+
+.three-btn p, .manage p, .group p{
+    font-size: 1rem;
+    margin: 0;
+    color: white;
+    margin-left: 7px;
+}
+
+.second-part .post button {
+    background-color: #E60278;
+    color: white;
+    /* padding: 10px 20px; */
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 2rem;
+    width: 120px;
+    height: 32px;
+    white-space: nowrap;
+   }
+
+.second-part .post button:hover {
+    background-color: #d3036e;
+}
+
+
+
+.pro-btn button {
+    background-color: #b64bd1;
+    color: white;
+    border: 1px solid white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.second-part{
+    margin-right: 170px;
+}
+
+
+.universam p {
+    margin: -7px 0 -5px 0;
+    font-size: 0.9rem;
+}
+
+.material-symbols-outlined {
+    font-size: .5rem;
+    color: white;
+}
+
+.first-part
+
+.browse-drop, .manage-drop, .notify-drop, .folder-drop, .message-drop {
+    display: none;
+}
+
+/* dropdown */
+
+/* Existing styles remain unchanged */
+
+/* browse drop down start here */
+.browse-drop {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;;
+    width: 900px;
+    height: 95vh;
+    z-index: 10; /* Ensure it's above other content */
+    top: 50px; /* Adjust as per the button height */
+}
+
+.browse-drop::before {
+    content: "";
+    position: absolute;
+    top: -10px; /* Position the triangle above the dropdown */
+    left: 50px; /* Adjust to align the triangle under the button */
+    border-width: 0 10px 10px 10px; /* Top border is 0, bottom is 10px to create a triangle */
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent; /* Only the bottom border is visible (white) */
+    display: block;
+    
+}
+
+.input-search{
+    width: 98%;
+    height: 7%;
+    border: 1px solid #3f3f41;
+    background-color: rgba(255, 140, 0, 0);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.input-search:focus-within{
+    border: 1px solid #283eff;
+}
+
+.input-search span{
+    color: #0d0d14;
+}
+
+.input-search input{
+    width: 100%;
+    height: 95%;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+}
+.input-search input::placeholder{
+    font-size: 0.9rem;
+}
+
+.search-flex{
+    width: 100%;
+    height: 19%;
+    background-color: #ff00f200;
+    display: flex;
+}
+
+.browse-drop h6{
+    color: black;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+.in-flex{
+    width: 23%;
+    height: 100%;
+    background-color: #d3560300;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.in-flex svg{
+    width: 50px;
+    height: 50px;
+}
+
+.a-p p{
+    color: #0d0d14;
+}
+
+.a-p a{
+ text-decoration: none;
+ color: #1e1c2b;
+ margin: 0px 10px;
+ white-space: nowrap;
+}
+.a-p {
+ margin-top:10px;
+}
+
+.a-p a:hover{
+    color: #283eff;
+    
+}
+
+
+
+
+/* Browse drop dow ends here */
+
+/* Manage drop down Start here */
+.manage-drop{
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 400px;
+    height: 70vh;
+    z-index: 10; /* Ensure it's above other content */
+    top: 60px;
+    left: 20px;
+    color: black;
+
+}
+
+.manage-drop::before {
+    content: "";
+    position: absolute;
+    top: -10px; /* Position the triangle above the dropdown */
+    left: 150px; /* Adjust to align the triangle under the button */
+    border-width: 0 10px 10px 10px; /* Top border is 0, bottom is 10px to create a triangle */
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent; /* Only the bottom border is visible (white) */
+    display: block;
+    
+}
+
+.manage-drop p{
+    color: #0d0d14;
+}
+.recent{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    
+}
+.recent p, .p-cre{
+    color: rgb(38, 49, 209);
+}
+
+.recent p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.center-p{
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+.center-p p{
+    font-size: .9rem;
+}
+
+.center-p a{
+    text-decoration: none;
+}
+
+.center-p a:hover{
+    text-decoration: underline;
+}
+
+.fav-icon{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding: 0 5px;
+}
+.fav-icon svg{
+    margin-left: 5px;
+}
+
+
+.fav-icon:hover{
+    border-left: 3px solid rgb(131, 131, 131);
+    cursor: pointer;
+}
+
+/* Manage dropdown ends here */
+
+/* Notify drop down Start Here  */
+
+ .notify-drop {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 350px;
+    height: 70vh;
+    z-index: 10; /* Ensure it's above other content */
+top: 60px;
+left: -145px;
+    color: black;
+
+}
+
+.notify-drop::before {
+    content: "";
+    position: absolute;
+    top: -10px; /* Position the triangle above the dropdown */
+    left: 160px; /* Adjust to align the triangle under the button */
+    border-width: 0 10px 10px 10px; /* Top border is 0, bottom is 10px to create a triangle */
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent; /* Only the bottom border is visible (white) */
+    display: block;
+    
+}
+
+.bell-text{
+    text-align: center;
+    white-space: nowrap;
+    margin: 50px 0;
+}
+
+.bell-text img{
+    margin: 20px;
+    font-size: 100px;
+    
+}
+
+.bell-text p{
+    font-size: .8rem;
+    line-height: 7px;
+}
+
+.bell-text button{
+    background-color: #283eff00;
+    color: #0d0d14;
+    margin: auto;
+    border: 1px solid rgb(87, 85, 85);
+    margin-top: 20px;
+    height: 30px;
+    padding: 5px 15px;
+}
+
+.bell-text button:hover{
+    background-color: #47474752;
+    cursor: pointer;
+}
+
+
+
+
+/* Notify dropdown ends here */
+
+/* message-drop start here */
+.message-drop {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 350px;
+    height: 70vh;
+    z-index: 10; /* Ensure it's above other content */
+top: 60px;
+left: -50px;
+    color: black;
+    
+}
+
+.message-drop::before {
+    content: "";
+    position: absolute;
+    top: -10px; /* Position the triangle above the dropdown */
+    left: 160px; /* Adjust to align the triangle under the button */
+    border-width: 0 10px 10px 10px; /* Top border is 0, bottom is 10px to create a triangle */
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent; /* Only the bottom border is visible (white) */
+    display: block; 
+}
+
+.bell-text a {
+    text-decoration: none;
+}
+.bell-text a:hover{
+    text-decoration: underline;
+}
+
+/* Message  dropdown ends here */
+
+
+ .folder-drop {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: rgb(245, 17, 17);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px #0000001a;
+    padding: 10px;
+    width: 900px;
+    height: 80vh;
+    z-index: 10; /* Ensure it's above other content */
+    top: 50px; /* Adjust as per the button height */
+}
+
+
+/* Dropdown visibility on hover */
+.Browse:hover .browse-drop,
+.manage:hover .manage-drop,
+.notify:hover .notify-drop,
+.folder:hover .folder-drop,
+.message:hover .message-drop {
+    display: block; /* Show dropdown on hover */
+    
+}
+.freelance:hover,
+.Browse:hover ,
+.manage:hover ,
+.notify:hover ,
+.folder:hover ,
+.message:hover,
+.group:hover,
+.profile:hover{
+    background-color: #2b2b2bd5;
+   
+   
+}
+
+.freelance button,
+.Browse ,
+.manage ,
+.notify ,
+.folder ,
+.message{
+    height: 100%;
+}
+
+/* Additional tweaks for the positioning */
+.three-btn, .another-three {
+    position: relative; /* Make parent relative for dropdown positioning */
+}
+
+/* Specific dropdown adjustments for certain buttons */
+
+
+
+
+.universam {
+    margin-left: 10px;
+    position: relative;
+    
+
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-left: 1.3rem;
+    color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.universam:hover .universam-drop{
+    display: block;
+    cursor: pointer;
+
+}
+
+
+.universam-drop{
+    width: 380px;
+    height: 520px;
+    position: absolute;
+    display: none;
+    background-color: #ffffff;
+    top: 40px;
+    right: -130px;
+    color: #0d0d14; 
+    font-size: 1rem;
+    box-shadow: 1px 1px 10px rgba(78, 77, 77, 0.473);
+}
+
+.overflow{
+    width: 380px;
+    height: 520px;
+    background-color: #ffffff;
+    top: 70px;
+    right: -130px;
+    color: #0d0d14; 
+    overflow-y: scroll; 
+    padding: 0 20px;
+}
+
+.universam-drop a{
+    display:block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #3d3b3b;
+    width: 100%;
+}
+
+.universam-drop a:hover{
+    text-decoration: underline;
+    color: #283eff;
+    cursor: pointer;
+}
+
+.theme{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    color: #3d3b3b;
+}
+
+.theme span{
+    color: #1e1c2b;
+    margin-top: 20px;
+}
+
+/* .theme span:hover{
+    text-decoration: none;
+    color: #283eff;
+} */
+
+.theme:hover{
+    color: #283eff;
+    cursor: pointer;
+}
+
+.balance-p{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+.balance-p p{
+    font-size: 1rem;
+    color: #3d3b3b;
+}
+.universam-drop .about-profile,
+.universam-drop .finance{
+    margin: 30px 0 0 10px;
+}
+
+.universam-drop .about-profile h6,
+.universam-drop .finance h6{
+    font-weight: bold;
+}
+
+.universam-drop::before {
+    content: "";
+    position: absolute;
+    top: -10px; /* Position the triangle above the dropdown */
+    left: 180px; /* Adjust to align the triangle under the button */
+    border-width: 0 10px 10px 10px; /* Top border is 0, bottom is 10px to create a triangle */
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent; /* Only the bottom border is visible (white) */
+    display: block;
+}
+
+.last-app{
+    margin: 20px 0 5px 30px ;
+}
+
+
+
+/* Nav-bar two start here */
+
+.nav-two ul{
+list-style: none;
+display: flex;
+color: white;
+align-items: center;
+margin-left: 75px;
+}
+
+.nav-two ul li{
+    padding: 12px;
+    margin-top: 15px;
+    font-weight: 200;
+ 
+}
+
+.nav-two ul li:hover{
+    background-color: #2d2b36;
+    cursor: pointer;
+    overflow: hidden;
+}
+.nav-twow ul{
+list-style: none;
+display: flex;
+color: white;
+align-items: center;
+margin-left: 75px;
+}
+
+.nav-twow ul li{
+    padding: 10px;
+    margin-top: 15px;
+    font-weight: 400;
+ 
+}
+
+.nav-twow ul li:hover{
+    background-color: #2d2b36;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.nav-two{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e1c2b;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 43%;
+    width: 100%;
+}
+
+.nav-twow{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e1c2b;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 57%;
+}
+.nav-div{
+    height: 14vh;
+    width: 100%;
+}
+
+/* Middle part */
+.biggest-div{
+    background-color: rgba(100, 148, 237, 0);
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    padding: 10px;
+    color: #fff;  
+}
+
+.first-big{
+    background-color: #EAF2FD;
+    width: 55%;
+    height: 57%;
+    margin: 0 0 0 90px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.062);
+    border-radius: 5px;
+    
+}
+
+.img-p{
+    padding: 20px;
+    display: flex;
+    white-space: nowrap;
+    font-size: .9rem;
+    color: black;
+}
+
+.img-p img{
+    width: 40px;
+    height:40px;
+}
+
+.two-p p{
+    margin: -4px 0 0 10px;
+    /* line-height: 20px; */
+}
+
+.email-verified{
+    background-color: rgba(137, 43, 226, 0);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-size: .9rem;
+    margin-top: 10px;
+    color: black;
+}
+
+.box-icon{
+    margin: -60px 0 0 0;
+    color: black;
+}
+.h3-p{
+    width: 60%;
+    background-color: #e6027800;
+    margin:0 0 0 -10px ;
+}
+
+.verify-btn button{
+    padding: 8px 20px;
+    border: 1px solid white;
+    background-color: #EEF0F4;
+    color: #b8b8b8;
+    border-radius: 3px;
+}
+.h3-p2{
+    width: 60%;
+    background-color: #e6027800;
+    margin:0 0 0 -35px ;
+}
+
+.verify-btn2 button{
+    padding: 8px 20px;
+    border: 1px solid rgb(63, 63, 63);
+    background-color: #EEF0F4;
+    border-radius: 3px;
+    color: #2c2c2c;
+}
+
+.verify-btn2 button:hover{
+    background-color: rgb(179, 179, 179);
+    cursor: pointer;
+}
+
+
+
+.box-icon3{
+    margin: -40px 0 0 0;
+}
+.h3-p3{
+    width: 60%;
+    background-color: #e6027800;
+    margin:0 0 0 -15px ;
+}
+
+.verify-btn3 button{
+    padding: 8px 20px;
+    background-color: #EEF0F4;
+    border-radius: 3px;
+    border: none;
+    background-color: transparent;
+    color: #E60278;
+    
+}
+
+.verify-btn3 button:hover{
+    background-color: rgba(138, 67, 114, 0.226);
+    cursor: pointer;
+}
+
+
+/* long-div styling */
+.long-div{
+    background-color: #ffffff00;
+    width: 27%;
+    height: 90%;
+    margin: 0 0 0 30px;
+    padding: 0 10px;
+    color: black;
+}
+
+
+.set-your{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    color: black;
+}
+
+.fifty{
+    margin-top: 10px;
+    color: rgb(65, 64, 64);
+    margin-right: 20px;
+}
+
+.gauge{
+    width: 95%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #817f7f;
+}
+
+.seventy{
+    width: 70%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #283eff;
+}
+
+.pdiv{
+    font-size: 1rem;
+    margin-top: 15px;
+    width: 100%;
+    margin-right: 30px;
+}
+.pdiv p{
+    line-height: 20px;
+}
+
+.shield{
+    width: 100%;
+    height: 70px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.shield-icon{
+    margin-top: 15px;
+    display: flex;
+}
+.shield-icon p{
+   margin-left: 5px;
+}
+.plus{
+    margin-top: 15px;
+}
+
+.balance-us{
+    background-color: #283eff00;
+    width: 100%;
+    height: 110px;
+    font-size: .9rem;
+    padding: 20px 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(202, 199, 199);
+    border-top: 1px solid rgb(202, 199, 199);
+
+}
+
+.add{
+    display: flex;
+    color: #E60278;
+    cursor: pointer;
+}
+.add svg{
+    color: #E60278;
+}
+.balance-add{
+    display: flex;
+    justify-content: space-between;
+}
+
+.us-money{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(127, 255, 212, 0);
+}
+
+.us{
+    display: flex;
+    font-size: .9rem;
+    align-items: center;
+    background-color: #d3036e00;
+}
+.us p{
+    margin: 10px 5px;
+}
+
+.us img{
+    width: 23px;
+    height:18px;  
+}
+
+.money p{
+    margin-top: 10px;
+}
+
+.poll{
+    margin: 20px 0;
+}
+
+.button-skip{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-skip button{
+padding: 1px 15px;
+background-color: hsl(0, 0%, 97%);
+color: #303030;
+border-radius: 5px;
+border: 1px solid rgb(107, 107, 107);
+height: 40px;
+}
+
+
+.button-skip button:hover{
+    background-color: #e4e4e4;
+}
+.button-skip a:hover {
+    text-decoration: underline;
+    color: #283eff;
+}
+
+.button-skip a{
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
+}
+
+
+/* footer start here */
+footer{
+    background-color: #0d0d14;
+    width: 100%;
+    height: 106vh;
+    color: #fff;
+    padding: 50px 80px;
+    font-size: .9rem;
+}
+
+.big-flex{
+    display: flex;
+    height: 90%;
+}
+
+.logo-free img{
+    width: 150px;
+    height: 32px;
+}
+
+.us-div{
+    display: flex;
+}
+
+.us-div p{
+    margin-left: 10px;
+    white-space: nowrap;
+}
+.collective-us{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.us-div p:hover{
+    text-decoration: underline;
+    color: #1fade6;
+}
+
+.freelancer, .about, .terms, .partner,.app-play{
+    width: 18%;
+    height: 90vh;
+    background-color: #0004ff00;
+    display: block;
+    margin-left: 50px;
+    margin-top: 8px;
+}
+
+.freelancer h6, .about h6, .terms h6, .partner h6,.app-play h6{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.freelancer a, .about a, .terms a, .partner a{
+    display: block;
+    color: #fff;
+    margin-top: 3px;
+    font-size: .9rem;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.freelancer a:hover, .about a:hover, .terms a:hover, .partner a:hover{
+    color: #1fade6;
+    text-decoration: underline;
+}
+
+
+.apple-img img{
+    margin-top: 20px;
+}
+
+.apple-img{
+    margin-top: -15px;
+}
+
+.face-icon{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3rem;
+
+}
+
+.face-icon i{
+    margin-left: -15px;
+}
+
+#book:hover{
+    cursor: pointer;
+    color: #0004ff;
+
+}
+#twit:hover{    
+    cursor: pointer;
+    color: #00ccff;
+
+}
+#yout:hover{
+    cursor: pointer;
+    color: #ac0000;
+
+}
+#inst:hover{
+    cursor: pointer;
+    color: #e200aa;
+
+}
+
+.in-footer{
+    width:100% ;
+    background-color: #ffae0000;
+    display: flex;
+    color: #fff;
+    font-size: 1rem;
+padding: 30px ;
+border-top: 1px solid rgb(32, 32, 32) ;
+   
+}
+
+.numbers{
+    width:32% ;
+    background-color: #00ffaa00;
+    align-self: center;
+}
+
+.address{
+    white-space: nowrap;
+    font-size: .8rem;
+    background-color: rgba(165, 42, 42, 0);
+    align-self: center;
+}
+
+.numbers p, .address p{
+line-height: 2px;
+}
+
+
+
+
+

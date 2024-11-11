@@ -1,0 +1,1066 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* nav-bar start here */
+
+
+/* First-part start here */
+
+.first-part {
+    color: #fff;
+    display: flex;
+    margin-left: 80px;
+}
+
+
+
+/* chat gbt helps */
+
+body {
+    font-family: Arial, sans-serif;
+    height: 220vh;
+    width: 100%;
+
+
+}
+
+header {
+    width: 100%;
+    background-color: #0d0d14;
+    /* Dark background for the nav */
+    height: 7vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+
+.first-part,
+.second-part {
+    display: flex;
+    align-items: center;
+}
+
+.first-part .freelance img {
+    height: 32px;
+}
+
+.freelance {
+    padding: 7px 10px;
+    height: 7vh;
+}
+
+.three-btn,
+.another-three {
+    display: flex;
+
+}
+
+.three-btn {
+    margin-left: 25px;
+}
+
+.three-btn button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    padding: 7px 15px;
+
+}
+
+.another-three button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    padding: 2px 4px;
+    gap: 5px;
+}
+
+.another-three {
+    margin-right: -20px;
+}
+
+.another-three button {
+    margin: 4px;
+}
+
+
+.three-btn p,
+.manage p,
+.group p {
+    font-size: 1rem;
+    margin: 0;
+    color: white;
+    margin-left: 7px;
+}
+
+.second-part .post button {
+    background-color: #E60278;
+    color: white;
+    /* padding: 10px 20px; */
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 2rem;
+    width: 120px;
+    height: 32px;
+    white-space: nowrap;
+}
+
+.second-part .post button:hover {
+    background-color: #d3036e;
+}
+
+
+
+.pro-btn button {
+    background-color: #b64bd1;
+    color: white;
+    border: 1px solid white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.second-part {
+    margin-right: 170px;
+}
+
+
+.universam p {
+    margin: -7px 0 -5px 0;
+    font-size: 0.9rem;
+}
+
+.material-symbols-outlined {
+    font-size: .5rem;
+    color: white;
+}
+
+.first-part .browse-drop,
+.manage-drop,
+.notify-drop,
+.folder-drop,
+.message-drop {
+    display: none;
+}
+
+/* dropdown */
+
+/* Existing styles remain unchanged */
+
+/* browse drop down start here */
+.browse-drop {
+    display: none;
+    /* Hidden by default */
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    ;
+    width: 900px;
+    height: 130vh;
+    z-index: 10;
+    /* Ensure it's above other content */
+    top: 50px;
+    /* Adjust as per the button height */
+}
+
+.browse-drop::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    /* Position the triangle above the dropdown */
+    left: 50px;
+    /* Adjust to align the triangle under the button */
+    border-width: 0 10px 10px 10px;
+    /* Top border is 0, bottom is 10px to create a triangle */
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+    /* Only the bottom border is visible (white) */
+    display: block;
+
+}
+
+.input-search {
+    width: 98%;
+    height: 5%;
+    border: 1px solid #3f3f41;
+    background-color: rgba(255, 140, 0, 0);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+
+
+.input-search:focus-within {
+    border: 1px solid #283eff;
+}
+
+.input-search span {
+    color: #0d0d14;
+}
+
+.input-search input {
+    width: 100%;
+    height: 95%;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+}
+
+.input-search input::placeholder {
+    font-size: 0.9rem;
+}
+
+.search-flex {
+    width: 100%;
+    height: 19%;
+    background-color: #ff00f200;
+    display: flex;
+}
+
+.browse-drop h6 {
+    color: black;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+.in-flex {
+    width: 23%;
+    height: 100%;
+    background-color: #d3560300;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.in-flex svg {
+    width: 50px;
+    height: 50px;
+}
+
+.a-p p {
+    color: #0d0d14;
+}
+
+.a-p a {
+    text-decoration: none;
+    color: #1e1c2b;
+    margin: 0px 10px;
+    white-space: nowrap;
+}
+
+.a-p {
+    margin-top: 10px;
+}
+
+.a-p a:hover {
+    color: #283eff;
+
+}
+
+
+
+
+/* Browse drop dow ends here */
+
+/* Manage drop down Start here */
+.manage-drop {
+    display: none;
+    /* Hidden by default */
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 400px;
+    height: 70vh;
+    z-index: 10;
+    /* Ensure it's above other content */
+    top: 60px;
+    left: 20px;
+    color: black;
+
+}
+
+.manage-drop::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    /* Position the triangle above the dropdown */
+    left: 150px;
+    /* Adjust to align the triangle under the button */
+    border-width: 0 10px 10px 10px;
+    /* Top border is 0, bottom is 10px to create a triangle */
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+    /* Only the bottom border is visible (white) */
+    display: block;
+
+}
+
+.manage-drop p {
+    color: #0d0d14;
+}
+
+.recent {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+
+}
+
+.recent p,
+.p-cre {
+    color: rgb(38, 49, 209);
+}
+
+.recent p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.center-p {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.center-p p {
+    font-size: .9rem;
+}
+
+.center-p a {
+    text-decoration: none;
+}
+
+.center-p a:hover {
+    text-decoration: underline;
+}
+
+.fav-icon {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding: 0 5px;
+}
+
+x .fav-icon svg {
+    margin-left: 5px;
+}
+
+
+.fav-icon:hover {
+    border-left: 3px solid rgb(131, 131, 131);
+    cursor: pointer;
+}
+
+
+/* Manage dropdown ends here */
+
+/* Notify drop down Start Here  */
+
+.notify-drop {
+    display: none;
+    /* Hidden by default */
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 350px;
+    height: 70vh;
+    z-index: 10;
+    /* Ensure it's above other content */
+    top: 60px;
+    left: -145px;
+    color: black;
+
+}
+
+.notify-drop::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    /* Position the triangle above the dropdown */
+    left: 160px;
+    /* Adjust to align the triangle under the button */
+    border-width: 0 10px 10px 10px;
+    /* Top border is 0, bottom is 10px to create a triangle */
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+    /* Only the bottom border is visible (white) */
+    display: block;
+
+}
+
+.bell-text {
+    text-align: center;
+    white-space: nowrap;
+    margin: 50px 0;
+}
+
+.bell-text img {
+    margin: 20px;
+    font-size: 100px;
+
+}
+
+.bell-text p {
+    font-size: .8rem;
+    line-height: 7px;
+}
+
+.bell-text button {
+    background-color: #283eff00;
+    color: #0d0d14;
+    margin: auto;
+    border: 1px solid rgb(87, 85, 85);
+    margin-top: 20px;
+    height: 30px;
+    padding: 5px 15px;
+}
+
+.bell-text button:hover {
+    background-color: #47474752;
+    cursor: pointer;
+}
+
+
+
+
+/* Notify dropdown ends here */
+
+/* message-drop start here */
+.message-drop {
+    display: none;
+    /* Hidden by default */
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 350px;
+    height: 70vh;
+    z-index: 10;
+    /* Ensure it's above other content */
+    top: 70px;
+    left: -50px;
+    color: black;
+
+}
+
+.message-drop::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    /* Position the triangle above the dropdown */
+    left: 160px;
+    /* Adjust to align the triangle under the button */
+    border-width: 0 10px 10px 10px;
+    /* Top border is 0, bottom is 10px to create a triangle */
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+    /* Only the bottom border is visible (white) */
+    display: block;
+}
+
+.bell-text a {
+    text-decoration: none;
+}
+
+.bell-text a:hover {
+    text-decoration: underline;
+}
+
+/* Message  dropdown ends here */
+
+
+.folder-drop {
+    display: none;
+    /* Hidden by default */
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 350px;
+    height: 80vh;
+    z-index: 10;
+    left: -110px;
+    /* Ensure it's above other content */
+    top: 40px;
+    /* Adjust as per the button height */
+}
+
+
+.folder-drop::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    /* Position the triangle above the dropdown */
+    left: 160px;
+    /* Adjust to align the triangle under the button */
+    border-width: 0 10px 10px 10px;
+    /* Top border is 0, bottom is 10px to create a triangle */
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+    /* Only the bottom border is visible (white) */
+    display: block;
+}
+
+.bell-text a {
+    text-decoration: none;
+}
+
+.bell-text a:hover {
+    text-decoration: underline;
+}
+
+
+/* Dropdown visibility on hover */
+.Browse:hover .browse-drop,
+.manage:hover .manage-drop,
+.notify:hover .notify-drop,
+.folder:hover .folder-drop,
+.message:hover .message-drop {
+    display: block;
+    /* Show dropdown on hover */
+
+}
+
+.freelance:hover,
+.Browse:hover,
+.manage:hover,
+.notify:hover,
+.folder:hover,
+.message:hover,
+.group:hover,
+.profile:hover {
+    background-color: #2b2b2bd5;
+
+
+}
+
+.freelance button,
+.Browse,
+.manage,
+.notify,
+.folder,
+.message {
+    height: 100%;
+}
+
+/* Additional tweaks for the positioning */
+.three-btn,
+.another-three {
+    position: relative;
+    /* Make parent relative for dropdown positioning */
+}
+
+/* Specific dropdown adjustments for certain buttons */
+
+
+
+
+.universam {
+    margin-left: 10px;
+    position: relative;
+
+
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-left: 1.3rem;
+    color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.universam:hover .universam-drop {
+    display: block;
+    cursor: pointer;
+
+}
+
+
+.universam-drop {
+    width: 380px;
+    height: 520px;
+    position: absolute;
+    display: none;
+    background-color: #ffffff;
+    top: 40px;
+    right: -130px;
+    color: #0d0d14;
+    font-size: 1rem;
+    box-shadow: 1px 1px 10px rgba(78, 77, 77, 0.473);
+}
+
+.overflow {
+    width: 380px;
+    height: 520px;
+    background-color: #ffffff;
+    top: 70px;
+    right: -130px;
+    color: #0d0d14;
+    overflow-y: scroll;
+    padding: 0 20px;
+}
+
+.universam-drop a {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #3d3b3b;
+    width: 100%;
+}
+
+.universam-drop a:hover {
+    text-decoration: underline;
+    color: #283eff;
+    cursor: pointer;
+}
+
+.theme {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    color: #3d3b3b;
+}
+
+.theme span {
+    color: #1e1c2b;
+    margin-top: 20px;
+}
+
+/* .theme span:hover{
+    text-decoration: none;
+    color: #283eff;
+} */
+
+.theme:hover {
+    color: #283eff;
+    cursor: pointer;
+}
+
+.balance-p {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.balance-p p {
+    font-size: 1rem;
+    color: #3d3b3b;
+}
+
+.universam-drop .about-profile,
+.universam-drop .finance {
+    margin: 30px 0 0 10px;
+}
+
+.universam-drop .about-profile h6,
+.universam-drop .finance h6 {
+    font-weight: bold;
+}
+
+.universam-drop::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    /* Position the triangle above the dropdown */
+    left: 180px;
+    /* Adjust to align the triangle under the button */
+    border-width: 0 10px 10px 10px;
+    /* Top border is 0, bottom is 10px to create a triangle */
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+    /* Only the bottom border is visible (white) */
+    display: block;
+}
+
+.last-app {
+    margin: 20px 0 5px 30px;
+}
+
+
+/* body start here */
+
+.maximize {
+    background: linear-gradient(to right, #001431, #001C4D);
+    height: 18%;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: normal;
+    padding: 60px 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.max-text h1 {
+    font-size: 2.9rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+/* the second body start here */
+
+
+
+.the-bill {
+    width: 100%;
+    height: 170vh;
+    background-color: #b6202000;
+    padding: 5px 10px;
+    display: flex;
+    margin: 10px 0;
+}
+
+.whole {
+    width: 100%;
+    height: 200vh;
+    background-color: #00000000;
+    padding: 10px;
+}
+.whole p{
+  text-align: right;
+  margin:40px 30px 0 0;
+}
+
+.basics {
+    width: 25%;
+    height: 90%;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 4px rgba(70, 40, 40, 0.479);
+    margin: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(93, 178, 247, 0.342);
+    padding: 50px 20px;
+}
+
+.ba-img, .ba-basic{
+    text-align: center;
+    margin: 15px 0;
+}
+.ba-img img{
+    width: 50px;
+    height: 50px;
+}
+
+.ba-price{
+   display: flex;
+   align-items: center;
+   background-color: #babfc900;
+   margin: 0 50px;
+}
+
+.ba-tag{
+    text-align: center;
+    background-color: #fa6c0d00;
+    margin-top: -10px;
+}
+.ba-save{
+    text-align: center;
+    background-color: #fa6c0d00;
+    color: #005f15;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.ba-btn{
+    text-align: center;
+    margin: 15px 0;
+}
+.ba-btn button {
+    background-color: #0f59c7;
+    padding: 10px 90px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+
+.ba-text{
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+    background-color: #00ccff00;
+}
+
+.ba-text span{
+   margin: 0 10px;
+}
+
+
+.ba-text button{
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+   width: 15px;
+   height: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+   
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.plus {
+    width: 25%;
+    height: 100%;
+    background-color: #ffffff;
+    margin: -40px 10px 0 10px;
+    box-shadow: 1px 1px 4px rgba(70, 40, 40, 0.479);
+    border-radius: 5px;
+    border: 1px solid rgba(93, 178, 247, 0.342);
+    padding: 90px 10px;
+}
+
+
+
+/* Third part start here */
+
+.do-more{
+    background-image: url(https://www.f-cdn.com/assets/main/en/assets/membership/main/benefits-section-bg.jpg);
+    height: 130vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 90px 0 0 80px;
+}
+
+.more-bid{
+    width: 46%;
+    height: 45%;
+    background-color: #28ff8200;
+    margin: 10px 10px;
+    font-size: 1.15rem;
+    padding: 30px 0px;
+}
+.bid-wrap{
+    width: 48%;
+    height: 80%;
+    background-color: #ff652800;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px -15px;
+   
+}
+
+
+/* Fourth Page start here */
+
+.frequent {
+    width: 100%;
+    background-color: #fff;
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.frequent h1{
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+.frequent .need{
+  align-self: center;
+    margin: 50px 0 20px 200px;
+    width: 35%;
+    height: 45px;
+    border: 1px solid rgba(100, 100, 100, 0.904);
+    color:  rgba(54, 55, 70, 0.904);
+    border-radius: 4px;
+}
+
+.frequent .need:hover{
+    color: #142949;
+}
+
+.accordion {
+    width: 50%;
+    max-width: 600px; /* Added to restrict max width on larger screens */
+    margin: 0 auto;
+}
+
+
+
+
+/* footer start here */
+footer{
+    background-color: #0d0d14;
+    width: 100%;
+    height: 106vh;
+    color: #fff;
+    padding: 50px 80px;
+    font-size: .9rem;
+}
+
+.big-flex{
+    display: flex;
+    height: 90%;
+}
+
+.logo-free img{
+    width: 150px;
+    height: 32px;
+}
+
+.us-div{
+    display: flex;
+}
+
+.us-div p{
+    margin-left: 10px;
+    white-space: nowrap;
+}
+.collective-us{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.us-div p:hover{
+    text-decoration: underline;
+    color: #1fade6;
+}
+
+.freelancer, .about, .terms, .partner,.app-play{
+    width: 18%;
+    height: 90vh;
+    background-color: #0004ff00;
+    display: block;
+    margin-left: 50px;
+    margin-top: 8px;
+}
+
+.freelancer h6, .about h6, .terms h6, .partner h6,.app-play h6{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.freelancer a, .about a, .terms a, .partner a{
+    display: block;
+    color: #fff;
+    margin-top: 3px;
+    font-size: .9rem;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.freelancer a:hover, .about a:hover, .terms a:hover, .partner a:hover{
+    color: #1fade6;
+    text-decoration: underline;
+}
+
+
+.apple-img img{
+    margin-top: 20px;
+}
+
+.apple-img{
+    margin-top: -15px;
+}
+
+.face-icon{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3rem;
+
+}
+
+.face-icon i{
+    margin-left: -15px;
+}
+
+#book:hover{
+    cursor: pointer;
+    color: #0004ff;
+
+}
+#twit:hover{    
+    cursor: pointer;
+    color: #00ccff;
+
+}
+#yout:hover{
+    cursor: pointer;
+    color: #ac0000;
+
+}
+#inst:hover{
+    cursor: pointer;
+    color: #e200aa;
+
+}
+
+.in-footer{
+    width:100% ;
+    background-color: #ffae0000;
+    display: flex;
+    color: #fff;
+    font-size: 1rem;
+padding: 30px ;
+border-top: 1px solid rgb(32, 32, 32) ;
+   
+}
+
+.numbers{
+    width:32% ;
+    background-color: #00ffaa00;
+    align-self: center;
+}
+
+.address{
+    white-space: nowrap;
+    font-size: .8rem;
+    background-color: rgba(165, 42, 42, 0);
+    align-self: center;
+}
+
+.numbers p, .address p{
+line-height: 2px;
+}

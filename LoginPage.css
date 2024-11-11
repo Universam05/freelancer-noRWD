@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(165, 42, 42, 0);
+    display: flex;
+}
+
+
+.the-content {
+    width: 65%;
+    height: 100%;
+    background-color: rgba(0, 255, 255, 0);
+}
+
+.with-img {
+    width: 35%;
+    height: 100%;
+    background-color: rgb(146, 146, 163);
+    background-image: url(https://www.f-cdn.com/assets/main/en/assets/job-post/redesign/bird.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position-x: left;
+    background-repeat: no-repeat;
+
+}
+
+.with-img img {
+    width: 34.4%;
+    height: 12.5%;
+    margin-top: 549px;
+    margin-right: 10px;
+    float: right;
+}
+
+/* the content page start here */
+
+.the-content{
+    width: 65%;
+    height: 100%;
+    text-align: center;
+
+}
+
+.middle-one{
+    margin: auto;
+    width: 10%;
+    height: 100%;
+    
+    
+}
+
+.another-logo{
+    width: 100%;
+    height: 10%;
+    margin: auto;
+    text-align: center;
+}
+
+.another-logo p{
+margin-left: 5px;
+margin-top: 10px;
+}
+
+.another-logo img{
+    width:150px;
+    height: 40px;
+    margin-top: 50px;
+}
+
+.continue{
+    width: 290px;
+    height: 30px;
+    border: 0.5px solid rgb(219, 210, 210);
+    display: flex;
+    padding: 10pxpx;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 80px;
+cursor: pointer;
+    background-color: rgba(127, 255, 212, 0);
+}
+
+.continue:hover,
+.continues:hover{
+    background-color: rgba(171, 171, 231, 0.137);
+}
+
+.a-btn{
+    display:flex;
+    background-color: rgba(0, 0, 255, 0);
+}
+
+.pc{margin-top: -20px;
+
+}
+
+.a-btn button{
+    background-color: rgb(220, 43, 226);
+    color: #fff;
+    width: 22px;
+    height: 19px;
+    border: none;
+    border-radius: 100%;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+.a-cont{
+    display: block;
+    align-items: start;
+    background-color: rgba(210, 105, 30, 0);
+    margin-left: 5px;
+}
+
+.a-cont .p1{
+    margin-left: -70px;
+}
+
+.continue p{
+    font-size: 10px;
+    /* margin-left: -30px;
+    margin-top: 2px; */
+}
+
+.continue img{
+    max-height: 80%;
+    height: 15px;
+    margin-right: 10px;
+    margin-top:7px ;
+}
+.continues{
+    width: 290px;
+    height: 30px;
+    border: 0.5px solid rgb(219, 210, 210);
+    display: flex;
+    padding: 2px;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.continues p{
+    font-size: 12px;
+    margin-left: -30px;
+    margin-top: 2px;
+}
+
+.continues img{
+    max-height: 80%;
+    height: 20px;
+    margin-left: -50px;
+    margin-top:2px ;
+}
+
+.hr-display{
+    background-color: rgba(255, 0, 0, 0);
+    width: 35%;
+    height: 5%;
+    margin: auto;
+    display: flex;  
+    justify-content: space-around; 
+    margin-top: 10px;
+}
+
+.hr-display p{
+    font-size: 11px;
+    align-self: center;
+    margin-top: 15px;
+
+}
+
+hr{
+    width: 44%;
+    align-self: center;
+}
+
+.input-one input{
+    width: 34%;
+    height: 35px;
+    margin-top: 20px;
+    outline: none;
+    padding-left: 20px;
+}
+
+.input-one input:hover{
+    border: 1px solid rgb(53, 124, 255);
+}
+
+.input-one input:focus{
+    border: 1px solid rgb(53, 124, 255) ;
+}
+
+.input-one input::placeholder{
+    font-size: 12px;
+}
+
+
+.input-two input{
+    width: 34%;
+    height: 35px;
+    margin-top: 30px;
+    outline: none;
+    padding-left: 20px;
+}
+
+.input-two input:hover{
+    border: 1px solid rgb(53, 124, 255);
+}
+
+.input-two input:focus{
+    border: 1px solid rgb(53, 124, 255) ;
+}
+
+.input-two input::placeholder{
+    font-size: 12px;
+}
+
+
+
+.checkbox-container {
+    width: 34%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin: auto;
+    font-size:12px ;
+}
+.forgot-password {
+    text-decoration: none;
+    color: #007bff;
+}
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.checkbox-container input{
+    margin-top: 25px
+}
+
+.checkbox-container a{
+    margin-top: 25px;
+}
+
+form button{
+    margin-top: 20px ;
+    width: 34%;
+    height: 38px;
+    background-color: #0a6ed8;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+form button:hover{
+    background-color: #0264ce;
+}
+
+.hr-only{
+    width: 34%;
+    color: black;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.hr-only hr{
+    width: 100%;
+}
+
+.dont-have{
+    font-size: 10px;
+    white-space: nowrap;
+    display: flex;
+    margin: auto;
+    width: 34%;
+    background-color: #0a6ed800;
+    padding-left:80px ;
+}
+
+.dont-have .sig{
+    color: #007bff;
+}
+
+.dont-have .sig:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.two-img{
+    width: 30%;
+    height: 38px;
+    background-color: rgba(255, 0, 0, 0);
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.two-img img{
+width: 40%;
+height: 90%;
+}
+
+
